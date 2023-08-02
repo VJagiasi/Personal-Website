@@ -16,8 +16,8 @@ const Footer = () => {
           </div>
           <div className="text-text-color my-6">
               <a href="https://github.com/VJagiasi" className="mr-4"><FontAwesomeIcon icon={faGithub} size="2x"></FontAwesomeIcon></a>
-              <a href="https://www.linkedin.com/feed/"className="mr-4"><FontAwesomeIcon icon={faLinkedin} size="2x" href=""></FontAwesomeIcon></a>
-              <a href="mailto:vihaan@jagiasi" className="mr-4"><FontAwesomeIcon icon={faEnvelope} size="2x"></FontAwesomeIcon></a>
+              <a href="https://www.linkedin.com/in/vihaanjagiasi/"className="mr-4"><FontAwesomeIcon icon={faLinkedin} size="2x" href=""></FontAwesomeIcon></a>
+              <a href="mailto:vihaan@jagiasi.com" className="mr-4"><FontAwesomeIcon icon={faEnvelope} size="2x"></FontAwesomeIcon></a>
               <a href="https://twitter.com/VihaanJagiasi" className="mr-4"><FontAwesomeIcon icon={faTwitter} size="2x" href=""></FontAwesomeIcon></a>
           </div>
         </div>
