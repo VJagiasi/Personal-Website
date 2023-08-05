@@ -2,12 +2,14 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaperclip, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {faGithub, faLinkedin, faTwitter} from '@fortawesome/free-brands-svg-icons'
+import picture from "../images/Profile picture zoomedin.png"
 const Home = () => {
   return (
     <div id="about" className="bg-background h-auto p-10 text-2xl font-bold font-rubik flex flex-col justify-center items-start px-8 text-text-color text-left">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto mt-24">
         <div className="mt-6 mb-6">
-          <h1 className="flex mt-6 mb-6 text-5xl text-white">Hi, I'm Vihaan! <div className="text-6xl animate-wave">👋</div></h1>
+          <img src={picture} alt="profile-picture" className="overflow-hidden rounded-full w-32 h-32 my-3"/>
+          <h1 className="flex mt-6 mb-6 text-5xl text-white">Hi, I'm&nbsp;<span className='nav-link'>Vihaan!</span><div className="text-6xl animate-wave">👋</div></h1>
           <p className="text-3xl text-text-color">Full Stack Ninja, iOS Wizard</p>
           <p className="text-3xl text-text-color">Prev <span className="text-primary-color">@CogNext</span></p>
         </div>
