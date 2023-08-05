@@ -11,3 +11,24 @@
     --text-color: #C9C9CB;
     --background-icons: rgb(54, 56, 64);
 }
+
+.nav-link {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color:  var(--primary-color);/* Change the color to the desired underline color */
+    transition: width 0.5s; /* Set the transition time for the underline animation */
+  }
+  
+  .nav-link:hover::before {
+    width: 100%;
+  }
+  

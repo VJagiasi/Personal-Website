@@ -4,7 +4,7 @@ import baycream from '../icons/baycream.png'
 
 const Experience = () => {
   return (
-    <div className="bg-background h-auto text-xl font-rubik flex flex-col justify-center items-start px-8 text-text-color text-left">
+    <div id="experience" className="bg-background h-auto text-xl font-rubik flex flex-col justify-center items-start px-8 text-text-color text-left">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl mt-4 text-white font-bold mb-6">Experience</h2>
         <p className="my-7 text-2xl font-normal">From coding with coffee to debugging with donuts, I've sprinkled my magic all over these companies</p>
