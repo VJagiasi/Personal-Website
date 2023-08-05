@@ -10,7 +10,7 @@ function Skills() {
     <div className="bg-background h-auto text-2xl font-bold font-rubik flex flex-col justify-center items-start px-8 text-text-color text-left">
       <div className="max-w-4xl mx-auto">
           <h1 className="nav-link text-4xl mt-4 mb-6 text-white">Skills</h1>
-          <p className="my-7 font-normal">Though I'm always excited to use the latest and greatest technologies, these are my tried and tested go to tools when building any project.</p>
+          <p className="my-4 font-normal">Though I'm always excited to use the latest and greatest technologies, these are my tried and tested go to tools when building any project.</p>
           <div className="flex justify-center my-20">
             <div className="bg-background-icons text-xl text-white py-8 px-2 rounded-3xl b mx-6 flex flex-col justify-center items-center">
                 <img src={typescript} alt="logo"  width="50px"/>
