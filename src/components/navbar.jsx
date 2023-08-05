@@ -1,9 +1,11 @@
-import React from 'react'
-import { Link } from 'react-scroll'
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
-    <div className="flex justify-around items-center bg-background h-25 p-7 sticky top-0 shadow" >
+    <div
+      className="flex justify-around items-center bg-background h-28 p-7 sticky top-0 shadow transition-opacity"
+    >
           <h2 className="text-xl text-white md:text-xl font-rubik font-bold">Home</h2>
           <ul className="flex justify-center text-xl text-white font-bold font-rubik gap-4">
               <li><Link to="about" spy={true} smooth={true} className="nav-link">About</Link></li>
