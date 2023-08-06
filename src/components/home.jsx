@@ -14,11 +14,11 @@ const Home = () => {
           <p className="text-3xl text-text-color">Prev <span className="text-primary-color">@CogNext</span></p>
         </div>
         <div className="text-text-color my-6">
-              <a href="https://github.com/VJagiasi" target="_blank" className="mr-4"><FontAwesomeIcon icon={faGithub} size="xl"></FontAwesomeIcon></a>
-              <a href="https://www.linkedin.com/in/vihaanjagiasi/" target="_blank" className="mr-4"><FontAwesomeIcon icon={faLinkedin} size="xl"></FontAwesomeIcon></a>
-              <a href="mailto:vihaan@jagiasi.com" target="_blank" className="mr-4"><FontAwesomeIcon icon={faEnvelope} size="xl"></FontAwesomeIcon></a>
-              <a href="https://twitter.com/VihaanJagiasi" target="_blank" className="mr-4"><FontAwesomeIcon icon={faTwitter} size="xl"></FontAwesomeIcon></a>
-          </div>
+            <a href="https://github.com/VJagiasi" className="mr-4" target="_blank"><FontAwesomeIcon icon={faGithub} size="xl" className="transition hover:-translate-y-1 hover: motion-reduce:transition-none motion-reduce:hover:transform-none"></FontAwesomeIcon></a>
+            <a href="https://www.linkedin.com/in/vihaanjagiasi/"className="mr-4" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="xl"  className="transition hover:-translate-y-1 hover: motion-reduce:transition-none motion-reduce:hover:transform-none"></FontAwesomeIcon></a>
+            <a href="mailto:vihaan@jagiasi.com" className="mr-4" target="_blank"><FontAwesomeIcon icon={faEnvelope} size="xl" className="transition hover:-translate-y-1 hover: motion-reduce:transition-none motion-reduce:hover:transform-none"></FontAwesomeIcon></a>
+            <a href="https://twitter.com/VihaanJagiasi" className="mr-4" target="_blank"><FontAwesomeIcon icon={faTwitter} size="xl" href="" className="transition hover:-translate-y-1 hover: motion-reduce:transition-none motion-reduce:hover:transform-none"></FontAwesomeIcon></a>
+        </div>
         <div className="mt-10 mb-5 whitespace-normal">
           <div className="my-6">I'm a second year student specializing in SWE at the <span className="text-primary-color">@University of Waterloo.</span></div>
           <div className="my-6">In my free time you can catch me taking long bike rides, running around clicking pictures or either playing basketball, badminton or football</div>
