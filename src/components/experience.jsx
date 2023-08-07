@@ -1,6 +1,6 @@
 import React from 'react'
-import cognext from '../icons/cognext.png'
-import baycream from '../icons/baycream.png'
+// import cognext from '../icons/cognext.png'
+// import baycream from '../icons/baycream.png'
 
 const Experience = () => {
   return (

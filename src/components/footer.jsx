@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPaperclip, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import {faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {faGithub, faLinkedin, faTwitter} from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
@@ -15,10 +15,10 @@ const Footer = () => {
             <p>Copyright © VJagiasi 2023</p>
           </div>
           <div className="text-text-color my-6">
-              <a href="https://github.com/VJagiasi" className="mr-4"><FontAwesomeIcon icon={faGithub} size="xl" className="transition hover:-translate-y-1 hover: motion-reduce:transition-none motion-reduce:hover:transform-none"></FontAwesomeIcon></a>
-              <a href="https://www.linkedin.com/in/vihaanjagiasi/"className="mr-4"><FontAwesomeIcon icon={faLinkedin} size="xl"  className="transition hover:-translate-y-1 hover: motion-reduce:transition-none motion-reduce:hover:transform-none"></FontAwesomeIcon></a>
-              <a href="mailto:vihaan@jagiasi.com" className="mr-4"><FontAwesomeIcon icon={faEnvelope} size="xl" className="transition hover:-translate-y-1 hover: motion-reduce:transition-none motion-reduce:hover:transform-none"></FontAwesomeIcon></a>
-              <a href="https://twitter.com/VihaanJagiasi" className="mr-4"><FontAwesomeIcon icon={faTwitter} size="xl" href="" className="transition hover:-translate-y-1 hover: motion-reduce:transition-none motion-reduce:hover:transform-none"></FontAwesomeIcon></a>
+            <a href="https://github.com/VJagiasi" className="mr-4" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} size="xl" className="transition hover:-translate-y-1 hover: motion-reduce:transition-none motion-reduce:hover:transform-none"></FontAwesomeIcon></a>
+            <a href="https://www.linkedin.com/in/vihaanjagiasi/"className="mr-4" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="xl"  className="transition hover:-translate-y-1 hover: motion-reduce:transition-none motion-reduce:hover:transform-none"></FontAwesomeIcon></a>
+            <a href="mailto:vihaan@jagiasi.com" className="mr-4" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} size="xl" className="transition hover:-translate-y-1 hover: motion-reduce:transition-none motion-reduce:hover:transform-none"></FontAwesomeIcon></a>
+            <a href="https://twitter.com/VihaanJagiasi" className="mr-4" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} size="xl" href="" className="transition hover:-translate-y-1 hover: motion-reduce:transition-none motion-reduce:hover:transform-none"></FontAwesomeIcon></a>
           </div>
         </div>
       </div>
