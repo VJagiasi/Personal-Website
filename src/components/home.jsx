@@ -3,6 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {faGithub, faLinkedin, faTwitter} from '@fortawesome/free-brands-svg-icons'
 import picture from "../images/Profile picture zoomedin.png"
+import Typewriter from 'typewriter-effect';
+
+
 const Home = () => {
   return (
     <div id="about" className="bg-background h-auto p-10 text-2xl font-bold font-rubik flex flex-col justify-center items-start px-8 text-text-color text-left">
@@ -10,7 +13,27 @@ const Home = () => {
         <div className="mt-6 mb-6">
           <img src={picture} alt="my-beautiful-face" className="overflow-hidden rounded-full w-32 h-32 my-3"/>
           <h1 className="flex mt-6 mb-6 text-5xl text-white">Hi, I'm&nbsp;<span className='nav-link'>Vihaan!</span><div className="text-6xl animate-wave">👋</div></h1>
-          <p className="text-3xl text-text-color">Full Stack Ninja, iOS Wizard</p>
+          <p className="text-3xl text-text-color flex">I'm a&nbsp;
+            <span className="text-3xl text-blue-400 font-poppins font-extrabold">
+              <Typewriter className=""
+                onInit={(typewriter) => {
+                  typewriter.typeString("Full Stack Engineer")
+                  .pauseFor(1500)
+                  .deleteAll()
+                  .changeDeleteSpeed(2000)
+                  typewriter.typeString("iOS Developer")
+                  .pauseFor(1500)
+                  .deleteAll()
+                  .changeDeleteSpeed(2000)
+                  .start()
+                }}
+                options={{
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </span> 
+          </p>    
           <p className="text-3xl text-text-color">Currently building s4 <a href="https://buildspace.so/" target="_blank" rel="noreferrer" className="text-primary-color nav-link">@_buildspace</a></p>
           <p className="text-3xl text-text-color">Prev <a href="https://www.cognext.ai/" target="_blank" rel="noreferrer" className="text-primary-color nav-link">@CogNext</a></p>
         </div>
