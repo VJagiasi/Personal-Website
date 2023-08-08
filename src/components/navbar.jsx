@@ -6,7 +6,7 @@ import {faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
 
 
 const Navbar = () => {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
   const changetheme = () => {
     if(theme === "light") {
       setTheme("dark")
