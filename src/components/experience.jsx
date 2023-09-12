@@ -12,10 +12,10 @@ const Experience = () => {
           <div className="flex justify-center items-center gap-2 rounded-lg mb-10">
             {/* <img src={cognext} alt="logo" className="w-40 h-auto rounded-lg"/> */}
             <div className="dark:text-black">
-              <h3 className="text-2xl text-white dark:text-black font-bold ">CogNext.ai</h3>
+              <h3 className="text-2xl text-white dark:text-black font-bold ">CogNext AI</h3>
               <p>Software Engineering Intern</p>
               <p>New York, NY, Remote</p>
-              <p>May 2023 - Present</p>
+              <p>May 2023 - Aug 2023</p>
             </div>
           </div>
           <div className=" flex justify-center items-center gap-4 rounded-lg">
