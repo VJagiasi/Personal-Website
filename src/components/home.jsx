@@ -12,38 +12,24 @@ const Home = () => {
       <div className="max-w-4xl mx-auto mt-24">
         <div className="mt-6 mb-6">
           <img src={picture} alt="my-beautiful-face" className="overflow-hidden rounded-full w-32 h-32 my-3"/>
-          <h1 className="mt-6 mb-6 text-5xl text-white dark:text-black">Hi, I'm&nbsp;
-          <span className="mt-6 mb-6 text-5xl font-normal text-yellow-400 dark:text-black">
-            <Typewriter className=""
-                  onInit={(typewriter) => {
-                    typewriter.typeString("Vihaan")
-                    .pauseFor(1000)
-                    .deleteAll()
-                    .changeDeleteSpeed(3000)
-                    typewriter.typeString("Full Stack Developer")
-                    .pauseFor(1000)
-                    .deleteAll()
-                    .changeDeleteSpeed(3000)
-                    .start()
-                  }}
-                  options={{
-                    autoStart: true,
-                    loop: true,
-                  }}
-                />
-          </span></h1>
-          {/* <p className="text-3xl text-text-color dark:text-black flex">I'm a&nbsp;
-            <span className="text-3xl text-blue-400 dark:text-blue-900 font-poppins font-extrabold">
+          <h1 className="mt-6 mb-6 text-5xl text-white dark:text-black">Hey, I'm Vihaan
+          </h1>
+          <p className="text-xl text-text-color dark:text-black flex">I'm a&nbsp;
+            <span className="text-xl">
               <Typewriter className=""
                 onInit={(typewriter) => {
-                  typewriter.typeString("Full Stack Engineer")
+                  typewriter.typeString("Programmer")
                   .pauseFor(1500)
                   .deleteAll()
-                  .changeDeleteSpeed(2000)
-                  typewriter.typeString("iOS Developer")
+                  .changeDeleteSpeed(100000)
+                  typewriter.typeString("Gamer at Heart")
                   .pauseFor(1500)
                   .deleteAll()
-                  .changeDeleteSpeed(2000)
+                  .changeDeleteSpeed(100000)
+                  typewriter.typeString("Runner")
+                  .pauseFor(1500)
+                  .deleteAll()
+                  .changeDeleteSpeed(100000)
                   .start()
                 }}
                 options={{
@@ -52,7 +38,7 @@ const Home = () => {
                 }}
               />
             </span> 
-          </p>     */}
+          </p>    
         </div>
         <div className="text-text-color my-6 dark:text-black">
             <a href="https://github.com/VJagiasi" className="mr-4" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} size="xl" className="transition hover:-translate-y-1 hover: motion-reduce:transition-none motion-reduce:hover:transform-none"></FontAwesomeIcon></a>
