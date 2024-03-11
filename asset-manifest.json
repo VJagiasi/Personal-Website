@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.b946f7a7.css",
-    "main.js": "/personal-website/static/js/main.8f6c1ca7.js",
-    "static/media/Profile picture zoomedin.png": "/personal-website/static/media/Profile picture zoomedin.a5e2ff3920638da3966e.png",
-    "static/media/python.png": "/personal-website/static/media/python.e3f347b95fd474d38054.png",
-    "static/media/react.png": "/personal-website/static/media/react.a31358356afe3c99a46b.png",
-    "static/media/graphql.png": "/personal-website/static/media/graphql.95e173cae1ec5ef62a5f.png",
-    "static/media/nodejs.png": "/personal-website/static/media/nodejs.0d739f22e4df4fa6c5e1.png",
-    "static/media/typescript.png": "/personal-website/static/media/typescript.af108db04a54d784da9b.png",
-    "index.html": "/personal-website/index.html",
-    "main.b946f7a7.css.map": "/personal-website/static/css/main.b946f7a7.css.map",
-    "main.8f6c1ca7.js.map": "/personal-website/static/js/main.8f6c1ca7.js.map"
+    "main.css": "/static/css/main.b946f7a7.css",
+    "main.js": "/static/js/main.e1a47f72.js",
+    "static/media/Profile picture zoomedin.png": "/static/media/Profile picture zoomedin.a5e2ff3920638da3966e.png",
+    "static/media/python.png": "/static/media/python.e3f347b95fd474d38054.png",
+    "static/media/react.png": "/static/media/react.a31358356afe3c99a46b.png",
+    "static/media/graphql.png": "/static/media/graphql.95e173cae1ec5ef62a5f.png",
+    "static/media/nodejs.png": "/static/media/nodejs.0d739f22e4df4fa6c5e1.png",
+    "static/media/typescript.png": "/static/media/typescript.af108db04a54d784da9b.png",
+    "index.html": "/index.html",
+    "main.b946f7a7.css.map": "/static/css/main.b946f7a7.css.map",
+    "main.e1a47f72.js.map": "/static/js/main.e1a47f72.js.map"
   },
   "entrypoints": [
     "static/css/main.b946f7a7.css",
-    "static/js/main.8f6c1ca7.js"
+    "static/js/main.e1a47f72.js"
   ]
 }
