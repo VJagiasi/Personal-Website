@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/public/static/css/main.b946f7a7.css",
+    "main.js": "/public/static/js/main.fb84f339.js",
+    "static/media/Profile picture zoomedin.png": "/public/static/media/Profile picture zoomedin.a5e2ff3920638da3966e.png",
+    "static/media/python.png": "/public/static/media/python.e3f347b95fd474d38054.png",
+    "static/media/react.png": "/public/static/media/react.a31358356afe3c99a46b.png",
+    "static/media/graphql.png": "/public/static/media/graphql.95e173cae1ec5ef62a5f.png",
+    "static/media/nodejs.png": "/public/static/media/nodejs.0d739f22e4df4fa6c5e1.png",
+    "static/media/typescript.png": "/public/static/media/typescript.af108db04a54d784da9b.png",
+    "index.html": "/public/index.html",
+    "main.b946f7a7.css.map": "/public/static/css/main.b946f7a7.css.map",
+    "main.fb84f339.js.map": "/public/static/js/main.fb84f339.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b946f7a7.css",
+    "static/js/main.fb84f339.js"
+  ]
+}
